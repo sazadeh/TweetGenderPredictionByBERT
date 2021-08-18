@@ -22,3 +22,9 @@ We choose the **distilbert classification model** which had the best accuracy th
 The best accuracy we could get from these models was 61%. For future studies, it is better to annotate gender for a tweet dataset based on text, username, and 
 description and then use this annotated data set for tarin the models. It might help to get better accuracy.
 
+
+<img width="275" alt="BERT Gender Prediction Classification" src="https://user-images.githubusercontent.com/81987771/129907524-ce92c36b-3afc-4c46-b71c-e40f0cf09b35.png">
+<img width="359" alt="BERT Gender Prediction" src="https://user-images.githubusercontent.com/81987771/129907605-721a01d8-dd73-419e-845c-c153b4881d45.png">
+
+
+
