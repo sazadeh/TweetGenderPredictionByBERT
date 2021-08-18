@@ -1,6 +1,6 @@
-# TweetGenderPredictionByBERT
+# Tweet Gender Prediction By BERT using Simple Transformer Library
 
-We got the main Data set from (https://www.kaggle.com/gpreda/covid19-tweets) and then pre-processed tweet texts such as removing emojis,
+We got the main tweet data set from (https://www.kaggle.com/gpreda/covid19-tweets) and then pre-processed tweets by removing emojis,
 stop words, URLs, Username and Stemming. Furthermore, we used *VaderSentiment Package* to generate the Sentiment of tweets and then saved the clean tweet text
 and sentiments as "clean_tweets_sentiment.csv" file. We used this file as a primary clean dataset to predict the gender based on the trained model.<br />
 
