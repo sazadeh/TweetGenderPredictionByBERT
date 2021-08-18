@@ -1,7 +1,7 @@
 # TweetGenderPredictionByBERT
 
-There are some pre-trained BERT models introduced by Hugging Face (https://huggingface.co/transformers/pretrained\_models.html). 
-We used the transformer library created by @ThilinaRajapakse ThilinaRajapakse (https://github.com/thilinarajapakse/simpletransformers) 
+There are some pre-trained BERT models introduced by Hugging Face (https://huggingface.co/transformers/pretrained\_models.html).\\
+We used the transformer library created by @ThilinaRajapakse (https://github.com/thilinarajapakse/simpletransformers) 
 used those pre-trained models by Hugging Face in it. Then try to predict the gender of tweets based on the tweet text.
 
 We wanted to predict the gender-based on their tweet. We found a data set (https://www.kaggle.com/crowdflower/twitter-user-gender-classification)
