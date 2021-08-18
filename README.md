@@ -1,4 +1,4 @@
-# Tweet Gender Prediction By BERT using Simple Transformer Library
+# Tweet Gender Prediction By BERT using Simple Transformers Library
 
 We got the main tweet data set from (https://www.kaggle.com/gpreda/covid19-tweets) and then pre-processed tweets by removing emojis,
 stop words, URLs, Username and Stemming. Furthermore, we used *VaderSentiment Package* to generate the Sentiment of tweets and then saved the clean tweet text
@@ -14,7 +14,7 @@ We wanted to predict the gender-based on their tweet. We found a data set (https
 that has a gender for each tweet. We did the pre-processing steps on tweet text and considered the genders, female or male (we ignored unknown genders).
 Also kept the genders have the *gender-confidence > 0.80*. Then we used **CountVectorize** library to convert the tweet text into vectors.
 We changed *female* to *0* and *male* to *1* . The *gender* column is considered as our label.
-Then we trained the BERT model based on different models such as **Bert, DistilBERT, RobertA** by this Simple Transformer library. <br />
+Then we trained the BERT model based on different models such as **Bert, DistilBERT, RobertA** by this Simple Transformers library. <br />
 
 We choose the **distilbert classification model** which had the best accuracy then *predict* the genders based on our primary data set (clean_tweets_sentiment.csv). 
 
