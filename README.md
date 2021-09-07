@@ -4,7 +4,7 @@ We got the main tweet data set from (https://www.kaggle.com/gpreda/covid19-tweet
 stop words, URLs, Username and Stemming. Furthermore, we used *VaderSentiment Package* to generate the Sentiment of tweets and then saved the clean tweet text
 and sentiments as "clean_tweets_sentiment.csv" file. We used this file as a primary clean dataset to predict the gender based on the trained model.<br />
 
-There are some pre-trained BERT models introduced by Hugging Face (https://huggingface.co/transformers/pretrained\_models.html).<br />
+There are some pre-trained BERT models introduced by Hugging Face (https://huggingface.co/transformers/pretrained_models.html).<br />
 
 We used the transformer library created by @ThilinaRajapakse (https://github.com/thilinarajapakse/simpletransformers) 
 which used those pre-trained models by Hugging Face in it. Then tried to predict the gender of tweets based on the main tweet text data set.<br />
